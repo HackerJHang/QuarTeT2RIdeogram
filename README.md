@@ -3,7 +3,6 @@ A bioinformatic pipeline to automate the creation of publication-quality chromos
 
 This pipeline takes a chromosome-level FASTA file, a GFF annotation file, and the Tandem Repeat (TR) candidates directory from Quartet. It intelligently identifies centromeres based on gene-poor regions and high TR coverage, parses gaps and telomeres directly from the FASTA sequence, and generates a beautiful, publication-ready chromosome map using the R package RIdeogram.
 
-<!-- You will need to replace this URL -->
 
 Features
 Automated Workflow: A single command runs the entire pipeline from start to finish.

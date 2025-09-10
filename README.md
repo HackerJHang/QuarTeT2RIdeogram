@@ -1,7 +1,3 @@
-下面是按 GitHub Markdown 规范排版后的 README（未改动原始内容，仅做格式化）：
-
-⸻
-
 Quartet2RIdeogram
 
 A bioinformatic pipeline to automate the creation of publication-quality chromosome ideograms from Quartet genome assembly results.
@@ -21,18 +17,18 @@ Installation
 This pipeline is designed to run on a Linux-based system with Conda installed.
 
 Clone the repository
-
-cd Quartet2RIdeogram
+**
+cd Quartet2RIdeogram**
 
 Create a Conda environment and install dependencies:
 
-The provided install.sh script will create a dedicated Conda environment named q2r and install all necessary Python and R packages.
+The provided **install.sh** script will create a dedicated Conda environment named q2r and install all necessary Python and R packages.
 
 # Give the script execution permission
-chmod +x install.sh
+**chmod +x install.sh**
 
 # Run the installer
-./install.sh
+**./install.sh**
 
 Usage
 
@@ -52,15 +48,15 @@ Parameters
 Example
 
 # Activate the conda environment first
-conda activate q2r
+**conda activate q2r**
 
 # Run the pipeline
-bash quartet2rideogram.sh \
-  -f /path/to/your/hap1.fasta \
-  -g /path/to/your/hap1.gff \
+**bash quartet2rideogram.sh \
+  -f /path/to/your.fasta \
+  -g /path/to/your.gff \
   -c /path/to/your/quartet_results/hap1/Candidates/ \
-  -o Hap1_Chromosome_Map \
-  --telotype plant
+  -o _Chromosome_Map \
+  --telotype plant**
 
 This will generate Hap1_Chromosome_Map_ideogram.svg, .png, and .pdf in the current directory, along with an _intermediate_files folder containing all the intermediate data.
 

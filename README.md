@@ -1,5 +1,8 @@
 Quartet2RIdeogram
 
+<img width="1480" height="1344" alt="image" src="https://github.com/user-attachments/assets/4eaa54b3-ce58-4c12-bfe1-5b444723c7b3" />
+
+
 A bioinformatic pipeline to automate the creation of publication-quality chromosome ideograms from Quartet genome assembly results.
 
 This pipeline takes a chromosome-level FASTA file, a GFF annotation file, and the Tandem Repeat (TR) candidates directory from Quartet. It intelligently identifies centromeres based on gene-poor regions and high TR coverage, parses gaps and telomeres directly from the FASTA sequence, and generates a beautiful, publication-ready chromosome map using the R package RIdeogram.

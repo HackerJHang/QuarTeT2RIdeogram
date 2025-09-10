@@ -1,6 +1,7 @@
 Quartet2RIdeogram
 
-<img width="1480" height="1344" alt="image" src="https://github.com/user-attachments/assets/4eaa54b3-ce58-4c12-bfe1-5b444723c7b3" />
+<img width="1144" height="1058" alt="image" src="https://github.com/user-attachments/assets/422849c6-fc2f-4f89-95fe-eb35cdfb063a" />
+
 
 
 A bioinformatic pipeline to automate the creation of publication-quality chromosome ideograms from Quartet genome assembly results.
